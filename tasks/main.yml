@@ -124,9 +124,6 @@
 
 - meta: flush_handlers
 
-- name: Restart docker
-  service: name=docker state=restarted
-
 - include_role:
     name: yourlabs.remember
   vars:
